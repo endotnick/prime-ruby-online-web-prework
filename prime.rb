@@ -1,5 +1,5 @@
 # Add  code here!
-def prime?(max)
+def prime?(i)
   if i == 2
     return true
   elsif i % 2 < 1
@@ -7,7 +7,7 @@ def prime?(max)
   elsif i < 2
     return false
   else
-    for j in 2..max
+    for j in 2..i
       if max % 1 < 1
         return false
       end
