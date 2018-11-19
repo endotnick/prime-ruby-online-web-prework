@@ -8,7 +8,7 @@ def prime?(i)
     return false
   else
     for j in 2..i
-      if max % 1 < 1
+      if i % j < 1
         return false
       end
     end
