@@ -7,7 +7,7 @@ def prime?(i)
   elsif i < 2
     return false
   else
-    for j in 2..i
+    for j in 2...i
       if i % j < 1
         return false
       end
